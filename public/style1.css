@@ -1,0 +1,18 @@
+body {
+    background-color: #ebc8f1;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+#fileSubmit, #enFileSubmit{
+    color: white ;
+    background-color: purple;
+    border-radius: 10px;
+}
+h2{
+    text-decoration: underline 2px
+}
+h2::after
+{
+    content: ":";
+}

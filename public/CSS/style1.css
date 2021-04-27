@@ -1,0 +1,70 @@
+body {
+    background-color: #ebc8f1;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.UploadSlot
+{
+    float: right;
+    margin-right: 5%;
+}
+.FilesDisplay
+{
+    width: 50%;
+    padding: 10px;
+}
+#fileSubmit, #enFileSubmit{
+    color: white ;
+    background-color: purple;
+    border-radius: 10px;
+}
+h2{
+    text-transform: uppercase;
+
+}
+#files
+{
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+#files::after
+{
+    content: ":";
+    margin-right: 20px;
+    text-overflow: ellipsis;
+}
+h2::after
+{
+    content: ":";
+}
+.downloadFile
+{
+    color: White;
+    margin-left: 10px;
+    background-color: RoyalBlue;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+.downloadFile:hover
+{
+    color: darkgreen;
+    background-color: white;
+}
+.removeFile
+{
+    padding-left: 5px;
+    margin-left: 10px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+.removeFile:hover
+{
+    
+}
