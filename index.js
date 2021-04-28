@@ -13,7 +13,8 @@ var User = require('./Models/users').User;
 
 var File = require('./Models/files').File;
 var Key = require('./Models/keys').Key;
-mongoose.connect('mongodb+srv://vara:vara@mycluster.zucif.gcp.mongodb.net/cloudSecurity?retryWrites=true&w=majority')
+var url = //mongodb url here 
+mongoose.connect(url)
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'Connection error: '));
 db.once('open', function (callback) {
